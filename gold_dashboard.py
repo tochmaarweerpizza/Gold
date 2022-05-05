@@ -12,7 +12,7 @@ weight = st.number_input('Insert your body weight in kg',
                         value = 0,
                         help = 'For non-metric users: a stone is about 6.35 kg')
 
-wealth = st.number_input('Insert your net worth/wealth',
+wealth = st.number_input('Insert your net worth/wealth in US Dollars',
                          step = 1000,
                         value = 0,
                         help = "Depending on how seriously you're taking this, you can calculate your net worth based on your savings and assets, but a random number is fine as well")
