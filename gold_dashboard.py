@@ -47,7 +47,7 @@ else:
                 else:
                     times_sing_plur = 'time'
                 if counter > 1:
-                    columns = st.columns(10)
+                    columns = st.columns(3)
                     with columns[1]:
                         st.write('\+')
                 st.write('{} {} your weight in {}'.format(nr_times_weight,times_sing_plur, selected_commodity))
