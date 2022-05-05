@@ -46,6 +46,10 @@ else:
                     times_sing_plur = 'times'
                 else:
                     times_sing_plur = 'time'
+                if counter > 1:
+                    columns = st.columns(10)
+                    with columns[1]:
+                        st.write('\+')
                 st.write('{} {} your weight in {}'.format(nr_times_weight,times_sing_plur, selected_commodity))
                 
 st.info('The price per kg of gold and other commodities is based on the monthly [World Bank report](https://www.worldbank.org/en/research/commodity-markets)')
